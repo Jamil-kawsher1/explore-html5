@@ -8,12 +8,12 @@ nav li a{
     text-decoration: none;
     color: black;
 }
-nav ul{
+nav > ul{
 
 
     display: flex;
 }
-nav li :hover{
+nav > ul >li:hover{
     background-color: blanchedalmond;
 }
 
@@ -21,4 +21,42 @@ body{
 
 
     margin: 0px;
+}
+
+nav > ul > li:hover > ul{
+
+display: block;
+position: absolute;
+background-color: none;
+
+
+}
+
+
+.dropdown{
+   
+    display: none;
+}
+.fb:hover{
+
+background-color: skyblue;
+
+
+}
+.google:hover{
+    
+background-color: #F4B400 ;
+
+
+
+}
+.digipeak:hover{
+
+color: white;
+background-color: black;
+}
+.badhon:hover{
+
+background-color: green;
+
 }
